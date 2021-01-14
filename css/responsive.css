@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1400px) {
+    header {
+        height: 640px;
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+    header {
+        height: 560px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+    .card-footer h4{
+        font-size: 34px;
+    }
+    .card-footer button {
+        background-color: #0a12ff;
+        font-size: 12px;
+        height: 40px;
+        width: 115px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header {
+        height: 450px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+    .abt-con {
+        flex-direction: column;
+        height: 192px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .about-pic{
+        margin-top: 38px;
+    }
+    .about-us-contents{
+        flex-direction: column-reverse;
+    }
+    .about-us-texts{
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header-text h1 {
+        font-size: 27px;
+    }
+    .titlesize{
+        font-size: 45px;
+        text-align: center;
+    }
+    .header-row{
+        flex-direction: column-reverse;
+    }
+    .header-content{
+        height: auto;
+    }
+    .main-header{
+        height: auto;
+    }
+    .header-picture img{
+        width: 100%;
+    }
+    .header-text h1 {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .header-text h1{
+       font-size: 45px;
+    }
+}
